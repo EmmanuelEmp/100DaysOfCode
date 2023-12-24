@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Debugging in Javascript</title>
+</head>
+
+<body>
+
+    <!-- The debugger keyword is used in the code to force stop the execution of the code at a breaking point and calls the debugging function. The debugger function is executed if any debugging is needed at all else no action is performed.  -->
+	<h4>
+		Debugging demonstrations using Debugger keyword
+	</h4>
+	The solution of 20 * 5 is:
+	<p id="test"></p>
+	<p>
+		If the debugger is turned on the code stops
+		execution at the start of the debugger
+	</p>
+	<script>
+		const x = 20;
+		const y = 5;
+		const z = x * y;
+		debugger;
+		document.getElementById("test").innerHTML = z;
+	</script>
+</body>
+</html>

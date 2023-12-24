@@ -1,0 +1,3 @@
+It is common to have errors while writing codes and the errors can be due to syntax or logic. These errors create a lot of ambiguity in the logic and understanding of both users and programmers. There can also be errors in the code which can remain invisible to the programmer’s eye and can create havoc. To identify these errors we need Debuggers that can go through the entire code or program, identify the errors and also fix them. 
+
+Enter the Developers tool section by pressing F12 key and go to sources. In the source section, select a javascript file and set breakpoints by either selecting from the provided list like DOM breakpoints or Event listener breakpoints which stop the execution of code whenever an event occurs

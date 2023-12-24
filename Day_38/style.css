@@ -1,0 +1,60 @@
+body{
+   background-color: #bdcc92;
+}
+
+.container{
+    background-color: #fff;
+    text-align: center;
+    margin-top: 40px;
+    width: 400px;
+}
+.wrapper{  
+    padding: 10px
+}
+.head h1{
+    font-weight: bold;
+    margin-top: 30px;
+    color: black;
+}
+.click p {
+    color: black;
+}
+.btn{
+    background-color: green;
+    color: #fff;
+    border: none;
+    margin: 5px;
+}
+#drop {
+    text-align: center;
+    
+}
+form {
+    width: 100%;
+    margin: 0 auto;
+}
+
+/* Example: Add margin to form elements */
+form input[type="text"], form input[type="password"], form input[type="email"] {
+    padding: 10px;
+    text-align: center;
+    margin-bottom: 5px;
+    width:100% ; /* Set the width to your desired value */
+}
+
+/* Example: Add styles to the submit button */
+form input[type="submit"] {
+    font-size: large;
+    padding: 10px;
+    background-color: green;
+    width: 100%;
+    color: #fff;
+    cursor: pointer;
+    
+}
+form input[type="submit"]:hover {
+    background-color: #45a049;
+}
+.btn:hover {
+    background-color: #45a049;
+}
